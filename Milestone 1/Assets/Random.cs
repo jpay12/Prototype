@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Random : MonoBehaviour
 {
-    public int xPos;
+   public int xPos;
    public int yPos; 
    public GameObject theButton; 
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("click"))
+        if(Input.GetMouseButton("click"))
         {
-            xPos = Random.Range(30,80);
-            yPos = Random.Range(100,180);
+           int xPos = Random.Range(1,300);
+            int yPos = Random.Range(100,200);
             theButton.transform.position = new Vector3(xPos, -9.8f, yPos); 
         } 
     }
