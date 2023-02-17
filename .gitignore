@@ -56,6 +56,18 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+v# FMOD
+/Assets/FMODStudioCache.asset
+/Assets/FMODStudioCache.asset.meta
+fmod.log
+fmod_editor.log
+
+# FMOD studio (In folder FMOD)
+/FMOD/**.user
+/FMOD/**.unsaved
+/FMOD/**.cache
+/FMOD/**.restore
+
 Thumbs.db
 Milestone 1/Library/
 Milestone 1/Temp/
