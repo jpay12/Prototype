@@ -11,7 +11,7 @@ public class Randomization : MonoBehaviour
     // Update is called once per frame 
     void Update()
     {
-      if(Input.GetButtonDown("submit"))
+      if(Input.GetButtonDown("Submit"))
         {
            xPos = Random.Range(0,300);
            yPos = Random.Range(150,200);
