@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Randomization : MonoBehaviour
 {
+   public int yPos;
+   public int zPos; 
    public int xPos;
-   public int yPos; 
    public GameObject theButton; 
   
     // Update is called once per frame 
@@ -13,9 +14,10 @@ public class Randomization : MonoBehaviour
     {
       if(Input.GetButtonDown("Submit"))
         {
-           xPos = Random.Range(0,300);
-           yPos = Random.Range(150,200);
-           theButton.transform.position = new Vector3(xPos, -9.8f, yPos); 
+           yPos = Random.Range(5,-5);
+           zPos = Random.Range(0,-10);
+           xPos = Random.Range(3,100);
+           theButton.transform.position = new Vector3(0f, yPos, zPos); 
         } 
     }
 }
