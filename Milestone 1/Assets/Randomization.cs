@@ -5,7 +5,6 @@ using UnityEngine;
 public class Randomization : MonoBehaviour
 {
    public int yPos;
-   public int zPos; 
    public int xPos;
    public GameObject theButton; 
   
@@ -14,10 +13,9 @@ public class Randomization : MonoBehaviour
     {
       if(Input.GetButtonDown("Submit"))
         {
-           yPos = Random.Range(5,-5);
-           zPos = Random.Range(0,-10);
-           xPos = Random.Range(3,100);
-           theButton.transform.position = new Vector3(0f, yPos, zPos); 
+           yPos = Random.Range( 120,255);
+           xPos = Random.Range(100,200);
+           theButton.transform.position = new Vector3(xPos,yPos,0f); 
         } 
     }
 }
