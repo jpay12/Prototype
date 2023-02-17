@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Random : MonoBehaviour
+public class Randomization : MonoBehaviour
 {
    public int xPos;
    public int yPos; 
@@ -11,10 +11,10 @@ public class Random : MonoBehaviour
     // Update is called once per frame 
     void Update()
     {
-      if(Input.GetMouseButton("click"))
+      if(Input.GetButtonDown("submit"))
         {
-           int xPos = Random.Range(1,300);
-           int yPos = Random.Range(100,200);
+           xPos = Random.Range(0,300);
+           yPos = Random.Range(150,200);
            theButton.transform.position = new Vector3(xPos, -9.8f, yPos); 
         } 
     }
