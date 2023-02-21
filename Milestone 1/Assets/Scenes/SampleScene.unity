@@ -766,5 +766,5 @@ MonoBehaviour:
   yPos: 0
   xPos: 0
   theButton: {fileID: 904551772}
-  fpressesLeft: {fileID: 158982641}
+  thePresses: {fileID: 158982641}
   buttonPresses: 20
