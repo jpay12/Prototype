@@ -13,9 +13,10 @@ public class Randomization : MonoBehaviour
     {
       if(Input.GetButtonDown("Submit"))
         {
-           yPos = Random.Range( 120,255);
-           xPos = Random.Range(100,200);
-           theButton.transform.position = new Vector3(xPos,yPos,0f); 
+           yPos = Random.Range( -425, 425);
+           xPos = Random.Range( -874, 874);
+           theButton.transform.localPosition = new Vector3(xPos,yPos, 0);
+            print(theButton.transform.localPosition);
         } 
     }
 }
