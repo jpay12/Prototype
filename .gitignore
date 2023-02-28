@@ -68,6 +68,12 @@ fmod_editor.log
 /FMOD/**.cache
 /FMOD/**.restore
 
+/Assets/StreamingAssets/*.bank filter=lfs diff=lfs merge=lfs -text
+/Assets/Plugins/fmodstudio.bundle/** filter=lfs diff=lfs merge=lfs -text
+/Assets/Plugins/fmodstudioL.bundle/** filter=lfs diff=lfs merge=lfs -text
+/Source/** filter=lfs diff=lfs merge=lfs -text
+
+
 Thumbs.db
 Milestone 1/Library/
 Milestone 1/Temp/
