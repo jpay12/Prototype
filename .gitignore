@@ -58,27 +58,23 @@ crashlytics-build.properties
 
 
 # Never ignore DLLs in the FMOD subfolder.
-Milestone 1/Assets/Plugins/FMOD//lib/*
+!Milestone 1/[Aa]ssets/Plugins/FMOD//lib/*
 
 # Don't ignore images and gizmos used by FMOD in the Unity Editor.
-Milestone 1/Assets/Gizmos/FMOD/*
-Milestone 1/Assets/Editor Default Resources/FMOD/*
+!Milestone 1/[Aa]ssets/Gizmos/FMOD/*
+!Milestone 1/[Aa]ssets/Editor Default Resources/FMOD/*
 
 # Ignore the Cache folder since it is updated locally.
-Milestone 1/Assets/Plugins/FMOD/Cache/*
+Milestone 1/[Aa]ssets/Plugins/FMOD/Cache/*
 
 # Ignore bank files in the StreamingAssets folder.
-Milestone 1/Assets/StreamingAssets//.bank
-Milestone 1/Assets/StreamingAssets/**/.bank.meta
+Milestone 1/[Aa]ssets/StreamingAssets//.bank
+Milestone 1/[Aa]ssets/StreamingAssets/**/.bank.meta
 
 # If the source bank files are kept outside of the StreamingAssets folder then these can be ignored.
 # Log files can be ignored.
 fmod_editor.log
 
-
-# FMOD 1.10.x (Legacy)
-/Assets/FMODAssets/*
-/Assets/FMODStudioCache.meta
 
 
 Thumbs.db
