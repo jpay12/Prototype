@@ -5,14 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader: MonoBehaviour
 {
-  public void LoadNextScene() 
+  public void LoadScene(string sceneName) 
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
+      SceneManager.LoadScene(sceneName); 
      }
 
-    public void LoadStartScene() 
-    {
-        SceneManager.LoadScene(0);
-    } 
+    
 }
