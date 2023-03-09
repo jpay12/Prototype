@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 566554667}
   - component: {fileID: 566554666}
   m_Layer: 5
-  m_Name: Exit Button
+  m_Name: Exit text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 858354132}
   - component: {fileID: 858354131}
   m_Layer: 5
-  m_Name: 'Playbutton '
+  m_Name: Playtext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -914,9 +914,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: c5d9639eb7a14a94c86b42dd71cf7f19, type: 2}
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Exit","summary":null,"pan":{"x":-48.18864,"y":260.8779},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-158.0,"y":192.0},"guid":"30febe08-4d67-4dcc-86d9-d93d25936595","$version":"A","$type":"Bolt.OnButtonClick","$id":"10"},{"chainable":false,"member":{"name":"Quit","parameterTypes":[],"targetType":"UnityEngine.Application","targetTypeName":"UnityEngine.Application","$version":"A"},"defaultValues":{},"position":{"x":178.0,"y":173.0},"guid":"5403d2ac-4bc3-4de2-8acc-cd4807848cc6","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"d8b2794c-70c1-4fa0-9535-94b71a508ce4","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
 --- !u!114 &1413699683
 MonoBehaviour:
   m_ObjectHideFlags: 0
