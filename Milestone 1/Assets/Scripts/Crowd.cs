@@ -27,5 +27,10 @@ public class Crowd : MonoBehaviour
         Fish.SetActive(false);
         yield return new WaitForSeconds(7f);
         Fish.SetActive(true); 
+
+        Possum.SetActive(true);
+        yield return new WaitForSeconds(10f);
+        Possum.SetActive(false); 
     } 
+
 }

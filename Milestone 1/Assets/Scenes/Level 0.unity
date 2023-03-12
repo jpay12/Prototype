@@ -482,8 +482,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 899875003}
-  - component: {fileID: 899875002}
-  - component: {fileID: 899875001}
   m_Layer: 0
   m_Name: Scene Variables
   m_TagString: Untagged
@@ -491,33 +489,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &899875001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899875000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 995777834, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &899875002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899875000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!4 &899875003
 Transform:
   m_ObjectHideFlags: 0
@@ -543,7 +514,6 @@ GameObject:
   - component: {fileID: 966214314}
   - component: {fileID: 966214316}
   - component: {fileID: 966214315}
-  - component: {fileID: 966214317}
   m_Layer: 5
   m_Name: Crowd
   m_TagString: Untagged
@@ -608,21 +578,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966214313}
   m_CullTransparentMesh: 1
---- !u!114 &966214317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966214313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1801e9b5b0889304982716ea7eba31f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Possum: {fileID: 2052584202}
-  Owl: {fileID: 669433238}
-  Fish: {fileID: 279755746}
 --- !u!1 &990211653
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +590,7 @@ GameObject:
   - component: {fileID: 990211656}
   - component: {fileID: 990211655}
   - component: {fileID: 990211654}
+  - component: {fileID: 990211658}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -724,6 +680,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &990211658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990211653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6339faa807e704d46a9c2b895f2e1495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Possum: {fileID: 2052584202}
+  Owl: {fileID: 669433238}
+  Fish: {fileID: 279755746}
 --- !u!1 &1316296634
 GameObject:
   m_ObjectHideFlags: 0
