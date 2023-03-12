@@ -634,8 +634,6 @@ GameObject:
   - component: {fileID: 824694642}
   - component: {fileID: 824694641}
   - component: {fileID: 824694640}
-  - component: {fileID: 824694644}
-  - component: {fileID: 824694643}
   m_Layer: 5
   m_Name: 'Warning sign '
   m_TagString: Untagged
@@ -725,7 +723,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824694638}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -756,36 +754,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824694638}
   m_CullTransparentMesh: 1
---- !u!114 &824694643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824694638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-58.11114,"y":2.466666},"zoom":0.9,"elements":[],"$version":"A"}}}'
-    _objectReferences: []
---- !u!114 &824694644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824694638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1 &904551772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,6 +1312,7 @@ GameObject:
   - component: {fileID: 1720809722}
   - component: {fileID: 1720809721}
   - component: {fileID: 1720809725}
+  - component: {fileID: 1720809726}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1455,3 +1424,16 @@ MonoBehaviour:
   theButton: {fileID: 904551772}
   thePresses: {fileID: 158982641}
   buttonPresses: 20
+--- !u!114 &1720809726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720809720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6339faa807e704d46a9c2b895f2e1495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sign: {fileID: 824694638}
