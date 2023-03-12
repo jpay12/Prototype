@@ -14,7 +14,7 @@ public class Icon : MonoBehaviour
  
     // Use this for initialization
     void Start () {
-        StartCoroutine(HideAndShow(1f) );
+        StartCoroutine(HideAndShow(2f) );
     }
  
     // Update is called once per frame
@@ -22,20 +22,20 @@ public class Icon : MonoBehaviour
    
     }
 
-    IEnumerator HideAndShow(float delay)
+    IEnumerator HideAndShow (float delay)
     {
-        Possum.SetActive(false);
-        yield return new WaitForSeconds(2f);
         Possum.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        Possum.SetActive(false);
 
         Owl.SetActive(true);
-        yield return new WaitForSeconds(2f);
-        Owl.SetActive(false);
+        yield return new WaitForSeconds(3f);
+        Owl.SetActive(true);
 
        
-       Fish.SetActive(false);
-        yield return new WaitForSeconds(2f);
-       Fish.SetActive(false);
+       Fish.SetActive(true);
+        yield return new WaitForSeconds(4f);
+       Fish.SetActive(true);
 
     }
    

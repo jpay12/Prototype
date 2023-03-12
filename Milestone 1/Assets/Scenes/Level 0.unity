@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 265.36536, y: -94.45305}
-  m_SizeDelta: {x: 316.3427, y: 233.4629}
+  m_AnchoredPosition: {x: 279.88, y: -61}
+  m_SizeDelta: {x: 195.589, y: 167.243}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1345660
 MonoBehaviour:
@@ -620,6 +620,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1801e9b5b0889304982716ea7eba31f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Possum: {fileID: 2052584202}
+  Owl: {fileID: 669433238}
+  Fish: {fileID: 279755746}
 --- !u!1 &990211653
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,8 +635,6 @@ GameObject:
   - component: {fileID: 990211656}
   - component: {fileID: 990211655}
   - component: {fileID: 990211654}
-  - component: {fileID: 990211659}
-  - component: {fileID: 990211658}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -723,37 +724,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &990211658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 990211653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 2e1b8782cfb0d824ca8b2fdf9d79c67d, type: 2}
---- !u!114 &990211659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 990211653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1 &1316296634
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +858,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: level 3
+          m_StringArgument: level 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1428720625
