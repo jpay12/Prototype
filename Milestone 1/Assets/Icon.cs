@@ -4,19 +4,17 @@ using UnityEngine;
 
 public class Icon : MonoBehaviour
 {
-   public GameObject PossumIcons;
+   public GameObject Possum;
 
    public GameObject Owl; 
 
-   public GameObject OwlIcons;
-
    public GameObject Fish;  
 
-   public GameObject FishIcons; 
+  
  
     // Use this for initialization
     void Start () {
-        StartCoroutine(HideAndShow(2.0f) );
+        StartCoroutine(HideAndShow(1f) );
     }
  
     // Update is called once per frame
@@ -24,10 +22,26 @@ public class Icon : MonoBehaviour
    
     }
 
-    IEnumerator ShowAndHide(float delay)
+    IEnumerator HideAndShow(float delay)
     {
-        PossumIcons.SetActive(false);
+        Possum.SetActive(false);
         yield return new WaitForSeconds(2f);
-        PossumIcons.SetActive(true);
+        Possum.SetActive(true);
+
+        Owl.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        Owl.SetActive(false);
+
+       
+       Fish.SetActive(false);
+        yield return new WaitForSeconds(2f);
+       Fish.SetActive(false);
+
     }
+   
 }
+
+
+
+
+

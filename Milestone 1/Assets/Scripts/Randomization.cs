@@ -12,16 +12,18 @@ public class Randomization : MonoBehaviour
     public GameObject thePresses;
     Text pressesLeft;
     public int buttonPresses;
-    
-    
+
 
     // Update is called once per frame 
-    public void start() 
+    private void Start()
     {
         buttonPresses = 20;
         pressesLeft = thePresses.GetComponent<Text>();
         pressesLeft.text = "Presses Left: " + buttonPresses;
-        if(onClick.GetComponent.<theButton>(). && buttonPresses > 0)
+    }
+    void Update()
+    {
+      if(Input.GetButtonDown("Submit") && buttonPresses > 0)
         {
            yPos = Random.Range( -425, 425);
            xPos = Random.Range( -874, 874);
@@ -30,6 +32,6 @@ public class Randomization : MonoBehaviour
             buttonPresses = buttonPresses - 1;
             pressesLeft.text = "Presses Left: " + buttonPresses;
         } 
+
     }
- 
 }
