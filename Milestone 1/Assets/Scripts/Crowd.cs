@@ -21,11 +21,11 @@ public class Crowd : MonoBehaviour
     IEnumerator HideAndShow (float delay)
     {
         Owl.SetActive(false);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         Owl.SetActive(true); 
 
         Fish.SetActive(false);
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(5f);
         Fish.SetActive(true); 
 
         Possum.SetActive(true);
