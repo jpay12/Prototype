@@ -23,7 +23,7 @@ public class Randomization : MonoBehaviour
     }
      void Update()
     {
-      if(Input.GetMouseButtonDown(0))
+      if(Input.GetMouseButtonDown(0) && buttonPresses > 0)
         {
            yPos = Random.Range( -425, 425);
            xPos = Random.Range( -874, 874);
