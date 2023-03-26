@@ -6,7 +6,7 @@ public class Crowd : MonoBehaviour
 {
      public GameObject Possum;
      public GameObject Owl;
-     public GameObject Fish;  
+     public GameObject Fish; 
     
     // Use this for initialization
     void Start () {
@@ -31,6 +31,8 @@ public class Crowd : MonoBehaviour
         Possum.SetActive(true);
         yield return new WaitForSeconds(10f);
         Possum.SetActive(false); 
+         
+
     } 
 
 }
