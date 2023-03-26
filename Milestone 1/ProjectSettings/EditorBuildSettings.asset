@@ -21,11 +21,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: c22f7d975d1adc34db6568f475bb9282
   - enabled: 1
-    path: Assets/Scenes/Stage Scene.unity
-    guid: 6580b00277ae8394d9025560703080c0
-  - enabled: 1
     path: Assets/Scenes/Fish Dialogue.unity
     guid: 24cfaea09e406124292a78be58094f7a
+  - enabled: 1
+    path: Assets/Scenes/Stage Scene.unity
+    guid: 6580b00277ae8394d9025560703080c0
   - enabled: 1
     path: Assets/Scenes/level 3.unity
     guid: 4958d99537d352a4ab579b4c8d0f4a99
