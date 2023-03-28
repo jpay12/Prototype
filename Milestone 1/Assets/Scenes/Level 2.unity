@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 88417632}
   - component: {fileID: 88417631}
   - component: {fileID: 88417630}
+  - component: {fileID: 88417633}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -206,13 +207,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 102900000, guid: 8620e97e7e9859049934889a52248435, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 88417633}
+        m_TargetAssemblyTypeName: Randomization, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -256,6 +257,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88417628}
   m_CullTransparentMesh: 1
+--- !u!114 &88417633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88417628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe9a60616cf3224d8a9c9d479c07b0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yPos: 0
+  xPos: 0
+  theButton: {fileID: 88417628}
+  thePresses: {fileID: 477656330}
+  buttonPresses: 15
 --- !u!1 &257727735
 GameObject:
   m_ObjectHideFlags: 0

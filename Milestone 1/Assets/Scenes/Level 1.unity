@@ -839,17 +839,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 904551774}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
-        m_MethodName: set_interactable
-        m_Mode: 6
+      - m_Target: {fileID: 904551778}
+        m_TargetAssemblyTypeName: Randomization, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &904551775
 MonoBehaviour:
@@ -909,7 +909,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904551772}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fe9a60616cf3224d8a9c9d479c07b0f, type: 3}
   m_Name: 
@@ -918,7 +918,7 @@ MonoBehaviour:
   xPos: 0
   theButton: {fileID: 904551772}
   thePresses: {fileID: 158982641}
-  buttonPresses: 0
+  buttonPresses: 6
 --- !u!1 &923412716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1515,7 +1515,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720809720}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fe9a60616cf3224d8a9c9d479c07b0f, type: 3}
   m_Name: 
@@ -1550,5 +1550,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e314c8d330b2f48be2e2dc22c043ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeStart: 10
+  timeStart: 5
   textBox: {fileID: 1076968459}
