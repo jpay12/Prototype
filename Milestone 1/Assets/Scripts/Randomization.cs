@@ -12,12 +12,12 @@ public class Randomization : MonoBehaviour
     public GameObject thePresses;
     Text pressesLeft;
     public int buttonPresses;
-  
+    
+   
 
     // Update is called once per frame 
-    private void Start()
+    public void Start()
     {
-        buttonPresses = 20;
         pressesLeft = thePresses.GetComponent<Text>();
         pressesLeft.text = "Presses Left: " + buttonPresses;
     }
