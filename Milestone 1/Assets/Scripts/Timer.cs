@@ -12,8 +12,20 @@ public class Timer : MonoBehaviour
         textBox.text = timeStart.ToString(); 
     }
 
-    void Update(){
+    void Update()
+    {
         timeStart -= Time.deltaTime;
-        textBox.text = Mathf.Round(timeStart).ToString(); 
+        textBox.text = Mathf.Round(timeStart).ToString("0"); 
+        if(timeStart <= 0)
+        {
+            GameOver(); 
+            timeStart = 0; 
+        }
+    
     }
+
+        public void GameOver()
+        {
+            Application.Quit(); 
+        }
 }
