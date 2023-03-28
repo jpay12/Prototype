@@ -21,9 +21,10 @@ public class Randomization : MonoBehaviour
         pressesLeft = thePresses.GetComponent<Text>();
         pressesLeft.text = "Presses Left: " + buttonPresses;
     }
-     void Update()
+    
+    public void OnClick() 
     {
-      if(Input.GetMouseButtonDown(0) && buttonPresses > 0)
+      if (buttonPresses > 0)
         {
            yPos = Random.Range( -425, 425);
            xPos = Random.Range( -874, 874);
