@@ -15,7 +15,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         timeStart -= Time.deltaTime;
-        textBox.text = Mathf.Round(timeStart).ToString("0"); 
+        textBox.text = "Time Remaining:" + Mathf.Round(timeStart).ToString("0"); 
         if(timeStart <= 0)
         {
             GameOver(); 

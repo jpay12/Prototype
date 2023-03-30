@@ -4,19 +4,28 @@ using UnityEngine;
 
 public class Crowd : MonoBehaviour
 {
+     
+     
      public GameObject Possum;
+     public GameObject PossumEmotion;
+     public GameObject PossumEmotion1;
+     public GameObject PossumEmotion2;
+
      public GameObject Owl;
-     public GameObject Fish; 
-     public GameObject PossumEmotion; 
-    
+     public GameObject OwlEmotion;
+     public GameObject OwlEmotion1;
+     public GameObject OwlEmotion2;
+
+     public GameObject Fish;
+     public GameObject FishEmotion;
+     public GameObject FishEmotion1;
+     public GameObject FishEmotion2;
+
+
     // Use this for initialization
-    void Start () {
+    void Start () 
+    {
         StartCoroutine(HideAndShow(10f) );
-    }
- 
-    // Update is called once per frame
-    void Update () {
-   
     }
 
     IEnumerator HideAndShow (float delay)
@@ -32,12 +41,7 @@ public class Crowd : MonoBehaviour
         PossumEmotion.SetActive(true);
         yield return new WaitForSeconds(2f);
         PossumEmotion.SetActive(false); 
-
-        Possum.SetActive(true);
-        yield return new WaitForSeconds(3f);
-        Possum.SetActive(false); 
-      
-
+     
     } 
 
 }
