@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Randomization : MonoBehaviour
+
+public class GameController : MonoBehaviour
 {
    public int yPos;
    public int xPos;
@@ -12,8 +13,8 @@ public class Randomization : MonoBehaviour
     public GameObject thePresses;
     Text pressesLeft;
     public int buttonPresses;
-    
-   
+
+  
 
     // Update is called once per frame 
     public void Start()
@@ -21,7 +22,8 @@ public class Randomization : MonoBehaviour
         pressesLeft = thePresses.GetComponent<Text>();
         pressesLeft.text = "Presses Left: " + buttonPresses;
     }
-    
+
+
     public void OnClick() 
     {
       if (buttonPresses > 0)
