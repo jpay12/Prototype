@@ -1399,7 +1399,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Exit \n"
+  m_Text: 'Exit
+
+
+'
 --- !u!222 &1244606325
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2098,7 +2101,7 @@ MonoBehaviour:
   yPos: 0
   xPos: 0
   theButton: {fileID: 1710942834}
-  thePresses: {fileID: 0}
+  thePresses: {fileID: 1612085449}
   buttonPresses: 40
 --- !u!1 &1834233614
 GameObject:
@@ -2374,7 +2377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

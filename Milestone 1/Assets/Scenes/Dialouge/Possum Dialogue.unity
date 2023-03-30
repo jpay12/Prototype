@@ -930,7 +930,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hay Uh, Can I Get a Shirt I''m kinda In a hurry to see the show '
+  m_Text: 'Hey uh. . . Can I get a shirt please. . . Um I''m kinda in a hurry to
+    see the show. . . '
 --- !u!222 &2143615531
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Start & End/Menu.unity
     guid: e0833531262444f499ea7b47063701e6
   - enabled: 1
+    path: Assets/Scenes/Overview/Concert Overview.unity
+    guid: 6580b00277ae8394d9025560703080c0
+  - enabled: 1
     path: Assets/Scenes/Dialouge/Possum Dialogue.unity
     guid: 2632971a6f4823b4a876d6eedb1b2ea5
   - enabled: 1
@@ -24,11 +27,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Dialouge/Fish Dialogue.unity
     guid: 24cfaea09e406124292a78be58094f7a
   - enabled: 1
-    path: Assets/Scenes/Overview/Concert Overview.unity
-    guid: 6580b00277ae8394d9025560703080c0
-  - enabled: 1
-    path: Assets/Scenes/Mini-Games/level 3.unity
+    path: Assets/Scenes/Mini-Games/Level 3.unity
     guid: 4958d99537d352a4ab579b4c8d0f4a99
+  - enabled: 1
+    path: Assets/Scenes/Overview/Ending Concert Overview.unity
+    guid: f5135b72419cd65479131fe4fd1a2b4e
   - enabled: 1
     path: Assets/Scenes/Start & End/End Scene.unity
     guid: 4f07fead25d213a4e92bb3f1dd327e37

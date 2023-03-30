@@ -272,8 +272,8 @@ MonoBehaviour:
   yPos: 0
   xPos: 0
   theButton: {fileID: 88417628}
-  thePresses: {fileID: 0}
-  buttonPresses: 30
+  thePresses: {fileID: 135044359}
+  buttonPresses: 15
 --- !u!1 &135044359 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 640070856123189657, guid: 005c6d86f335f4b46a7da3238a2cad2d, type: 3}
@@ -291,8 +291,6 @@ GameObject:
   - component: {fileID: 257727739}
   - component: {fileID: 257727738}
   - component: {fileID: 257727737}
-  - component: {fileID: 257727736}
-  - component: {fileID: 257727741}
   - component: {fileID: 257727742}
   m_Layer: 5
   m_Name: Canvas
@@ -301,23 +299,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &257727736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257727735}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fe9a60616cf3224d8a9c9d479c07b0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  yPos: 0
-  xPos: 0
-  theButton: {fileID: 88417628}
-  thePresses: {fileID: 135044359}
-  buttonPresses: 2
 --- !u!114 &257727737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,19 +384,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &257727741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257727735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29044b9f325830740885c42ee893063e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sign: {fileID: 0}
 --- !u!114 &257727742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -675,7 +643,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage Scene
+          m_StringArgument: Concert Overview
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &968255890
@@ -931,7 +899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.43323246, g: 0.5377358, b: 0.5256522, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
