@@ -11,7 +11,7 @@ public class Musicplayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        musicTrack = FMODUnity.RuntimeManager.CreateInstance("event:/Music/Song for Presentation_mixdown(Real)");
+        musicTrack = FMODUnity.RuntimeManager.CreateInstance("event:/Music/Test Song");
         musicTrack.start();
     }
 
