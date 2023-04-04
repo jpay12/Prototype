@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExitScript : MonoBehaviour
+public class Exit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void QuitGame()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Application.Quit();
     }
 }
