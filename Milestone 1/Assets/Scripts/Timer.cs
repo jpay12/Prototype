@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; 
 
 public class Timer : MonoBehaviour
 {
     public float timeStart = 60;
     public Text textBox;
+     
 
     void Start(){
         textBox.text = timeStart.ToString(); 
@@ -18,14 +20,10 @@ public class Timer : MonoBehaviour
         textBox.text = "Time Remaining:" + Mathf.Round(timeStart).ToString("0"); 
         if(timeStart <= 0)
         {
-            GameOver(); 
             timeStart = 0; 
+            SceneManager.LoadScene("Failed"); 
         }
     
     }
 
-        public void GameOver()
-        {
-            Application.Quit(); 
-        }
 }
