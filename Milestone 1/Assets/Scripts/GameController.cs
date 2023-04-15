@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement; 
 
 public class GameController : MonoBehaviour
 {
@@ -35,6 +35,12 @@ public class GameController : MonoBehaviour
             buttonPresses = buttonPresses - 1;
             pressesLeft.text = "Presses Left: " + buttonPresses;
         } 
+        
+        if(buttonPresses <= 0)
+        {
+             SceneManager.LoadScene("Concert Overview"); 
+        }
+
 
     }
 }
