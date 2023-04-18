@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e314c8d330b2f48be2e2dc22c043ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeStart: 30
+  timeStart: 26
   textBox: {fileID: 1612085448}
 --- !u!1001 &1106215928
 PrefabInstance:
@@ -624,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 640070856185637579, guid: 005c6d86f335f4b46a7da3238a2cad2d, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 640070856185637579, guid: 005c6d86f335f4b46a7da3238a2cad2d, type: 3}
       propertyPath: m_AnchorMax.x
@@ -876,7 +876,7 @@ MonoBehaviour:
   xPos: 0
   theButton: {fileID: 1710942834}
   thePresses: {fileID: 1612085449}
-  buttonPresses: 25
+  buttonPresses: 20
 --- !u!1 &2032385956
 GameObject:
   m_ObjectHideFlags: 0
