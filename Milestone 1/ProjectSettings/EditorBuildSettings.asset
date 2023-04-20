@@ -36,6 +36,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Mini-Games/Level 4.unity
     guid: 370e467e7bec1fa44875238ea4250a74
   - enabled: 1
+    path: Assets/Scenes/Dialouge/Ace Dialogue.unity
+    guid: 7cccf945ccc414948b2109ccad6874ea
+  - enabled: 1
+    path: Assets/Scenes/Dialouge/Haley Dialogue.unity
+    guid: e55f20146f95ad749a828a77740934d0
+  - enabled: 1
     path: Assets/Scenes/Overview/Failed.unity
     guid: 482a303c3c63c4e4b915cdb9bbe4441e
   - enabled: 1

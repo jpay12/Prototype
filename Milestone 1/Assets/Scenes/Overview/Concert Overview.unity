@@ -1084,7 +1084,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Kurt Dialogue
+          m_StringArgument: Haley Dialogue
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &926641124
@@ -2036,7 +2036,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Kurt Dialogue
+          m_StringArgument: Ace Dialogue
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1601788820
