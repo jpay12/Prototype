@@ -13,14 +13,14 @@ public class GameController : MonoBehaviour
     public GameObject thePresses;
     Text pressesLeft;
     public int buttonPresses;
-
-  
+    
 
     // Update is called once per frame 
     public void Start()
     {
         pressesLeft = thePresses.GetComponent<Text>();
         pressesLeft.text = "Presses Left: " + buttonPresses;
+      
     }
 
 
@@ -38,7 +38,8 @@ public class GameController : MonoBehaviour
         
         if(buttonPresses <= 0)
         {
-             SceneManager.LoadScene("Concert Overview"); 
+             SceneManager.LoadScene("Concert Overview");
+            
         }
 
 
