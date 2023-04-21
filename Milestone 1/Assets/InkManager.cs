@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Ink.Runtime;
+using UnityEngine.SceneManagement;
 
 public class InkManager : MonoBehaviour
 {
@@ -33,11 +34,19 @@ public class InkManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
-        if (!_story.canContinue) return;
+        if (!_story.canContinue)
+        {
+            LoadScene();
+        }
 
         string text = _story.Continue(); // gets next line
         text = text?.Trim(); // removes white space from text
         _textField.text = text; // displays new text
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 
 }
