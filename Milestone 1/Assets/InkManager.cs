@@ -34,9 +34,11 @@ public class InkManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
+        //if (!_story.canContinue) return;
+
         if (!_story.canContinue)
         {
-            LoadScene();
+            SceneManager.LoadScene("Concert Overview");
         }
 
         string text = _story.Continue(); // gets next line
@@ -44,7 +46,7 @@ public class InkManager : MonoBehaviour
         _textField.text = text; // displays new text
     }
 
-    public void LoadScene(string sceneName)
+    void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
