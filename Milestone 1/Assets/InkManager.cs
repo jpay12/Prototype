@@ -36,10 +36,15 @@ public class InkManager : MonoBehaviour
     {
         //if (!_story.canContinue) return;
 
-        if (!_story.canContinue)
+
+        if (!_story.canContinue && SceneManager.GetActiveScene().name == "Cine1")
         {
             SceneManager.LoadScene("Concert Overview");
         } 
+        else if (!_story.canContinue && SceneManager.GetActiveScene().name == "Cine2")
+        {
+            SceneManager.LoadScene("Ending Concert Overview");
+        }
 
         string text = _story.Continue(); // gets next line
         text = text?.Trim(); // removes white space from text
