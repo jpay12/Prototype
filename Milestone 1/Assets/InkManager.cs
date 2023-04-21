@@ -34,12 +34,12 @@ public class InkManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
-        if (!_story.canContinue) return;
+        //if (!_story.canContinue) return;
 
-        /*if (!_story.canContinue)
+        if (!_story.canContinue)
         {
             SceneManager.LoadScene("Concert Overview");
-        } */
+        } 
 
         string text = _story.Continue(); // gets next line
         text = text?.Trim(); // removes white space from text
@@ -49,6 +49,6 @@ public class InkManager : MonoBehaviour
     void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
-    }
+    } 
 
 }
