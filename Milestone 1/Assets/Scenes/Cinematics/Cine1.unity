@@ -299,7 +299,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 482440973}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 482440975}
+        m_TargetAssemblyTypeName: NextButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &482440973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,8 +397,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -110}
-  m_SizeDelta: {x: 400, y: 30}
+  m_AnchoredPosition: {x: 0, y: -92.50001}
+  m_SizeDelta: {x: 640, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &501788077
 MonoBehaviour:
@@ -415,7 +427,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -630,7 +642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da8f253adbbe2704b870f0cdecff9535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inkJsonAsset: {fileID: 4900000, guid: 7d2ab3ead7e3e084d92596612ce0cba9, type: 3}
+  _inkJsonAsset: {fileID: 4900000, guid: cd04403093c98f145a1e46561d983bd8, type: 3}
   _textField: {fileID: 501788077}
 --- !u!1 &1543069689
 GameObject:
