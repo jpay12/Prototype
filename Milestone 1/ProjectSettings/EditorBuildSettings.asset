@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Overview/Ending Concert Overview.unity
     guid: f5135b72419cd65479131fe4fd1a2b4e
+  - enabled: 1
+    path: Assets/Scenes/Cinematics/Cine1.unity
+    guid: 57b6da1328532494aa8fc6337a4a5baf
+  - enabled: 1
+    path: Assets/Scenes/Cinematics/Cine2.unity
+    guid: 8a635d1596f9a1e4a968458c079af4ed
   m_configObjects: {}
