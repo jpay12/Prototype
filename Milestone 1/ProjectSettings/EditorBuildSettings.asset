@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cinematics/Cine2.unity
     guid: 8a635d1596f9a1e4a968458c079af4ed
+  - enabled: 1
+    path: Assets/Scenes/Start & End/Lvl1_End.unity
+    guid: 2e5655fd68a6c914baf1faa157effe67
   m_configObjects: {}
