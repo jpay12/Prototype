@@ -16,6 +16,8 @@ public class InkManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+
         StartStory();
     }
 
@@ -29,6 +31,13 @@ public class InkManager : MonoBehaviour
     void StartStory()
     {
         _story = new Story(_inkJsonAsset.text);
+
+        _story.BindExternalFunction("ShowCharacter", (string name, string position, string mood)
+            => Debug.Log($"Show character called. {name}, {position}, {mood}"));
+
+        _story.BindExternalFunction("HideCharacter", (string name)
+            => Debug.Log($"Hide character called. {name}"));
+
         DisplayNextLine();
     }
 
