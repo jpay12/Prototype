@@ -54,7 +54,7 @@ public class InkManager : MonoBehaviour
         } 
         else if (!_story.canContinue && SceneManager.GetActiveScene().name == "Cine2")
         {
-            SceneManager.LoadScene("Ending Concert Overview");
+            SceneManager.LoadScene("Hub1");
         }
         //Hub convos
         else if (!_story.canContinue && SceneManager.GetActiveScene().name == "H1_Haley_Convo")
