@@ -47,7 +47,7 @@ public class InkManager : MonoBehaviour
     {
         //if (!_story.canContinue) return;
 
-
+        //Cinematics
         if (!_story.canContinue && SceneManager.GetActiveScene().name == "Cine1")
         {
             SceneManager.LoadScene("Concert Overview");
@@ -55,6 +55,23 @@ public class InkManager : MonoBehaviour
         else if (!_story.canContinue && SceneManager.GetActiveScene().name == "Cine2")
         {
             SceneManager.LoadScene("Ending Concert Overview");
+        }
+        //Hub convos
+        else if (!_story.canContinue && SceneManager.GetActiveScene().name == "H1_Haley_Convo")
+        {
+            SceneManager.LoadScene("Hub1");
+        }
+        else if (!_story.canContinue && SceneManager.GetActiveScene().name == "H1_Ace_Convo")
+        {
+            SceneManager.LoadScene("Hub1");
+        }
+        else if (!_story.canContinue && SceneManager.GetActiveScene().name == "H1_Kurt_Convo")
+        {
+            SceneManager.LoadScene("Hub1");
+        }
+        else if (!_story.canContinue && SceneManager.GetActiveScene().name == "H1_MJ_Convo")
+        {
+            SceneManager.LoadScene("Hub1");
         }
 
         string text = _story.Continue(); // gets next line

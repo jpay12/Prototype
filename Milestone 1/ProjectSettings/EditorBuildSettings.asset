@@ -62,4 +62,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Start & End/Lvl1_End.unity
     guid: 2e5655fd68a6c914baf1faa157effe67
+  - enabled: 1
+    path: Assets/Scenes/Hubs/Hub1.unity
+    guid: 9df3cfeafeaff5548a443088043325d7
+  - enabled: 1
+    path: Assets/Scenes/Hubs/Hub1_Convos/H1_Ace_Convo.unity
+    guid: 7d6dc9e9518d156409ab51ff297b0eae
+  - enabled: 1
+    path: Assets/Scenes/Hubs/Hub1_Convos/H1_Haley_Convo.unity
+    guid: c216f533215ddda4fa23328fec77389e
+  - enabled: 1
+    path: Assets/Scenes/Hubs/Hub1_Convos/H1_Kurt_Convo.unity
+    guid: 338fa92f7632beb4b966f4120904a295
+  - enabled: 1
+    path: Assets/Scenes/Hubs/Hub1_Convos/H1_MJ_Convo.unity
+    guid: 3714fe48386b46c43b65e7848169ca1c
   m_configObjects: {}

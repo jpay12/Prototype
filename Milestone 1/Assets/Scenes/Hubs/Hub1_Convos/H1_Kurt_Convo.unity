@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da8f253adbbe2704b870f0cdecff9535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inkJsonAsset: {fileID: 4900000, guid: cd04403093c98f145a1e46561d983bd8, type: 3}
+  _inkJsonAsset: {fileID: 4900000, guid: d2d41f2bceb18ce44acf5e101e866854, type: 3}
   _textField: {fileID: 501788077}
 --- !u!1 &1543069689
 GameObject:
