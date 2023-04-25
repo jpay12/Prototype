@@ -485,7 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94d5f40a95f47304c9fd67f385e68c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inkManager: {fileID: 1396930473}
+  _inkManager: {fileID: 0}
 --- !u!1 &501788075
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da8f253adbbe2704b870f0cdecff9535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inkJsonAsset: {fileID: 4900000, guid: cd04403093c98f145a1e46561d983bd8, type: 3}
+  _inkJsonAsset: {fileID: 4900000, guid: 64aadc257a4ee9d4084e688f765720c8, type: 3}
   _textField: {fileID: 501788077}
 --- !u!1 &1543069689
 GameObject:
