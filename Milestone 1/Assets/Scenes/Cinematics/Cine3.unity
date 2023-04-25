@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 482440973}
   - component: {fileID: 482440972}
   - component: {fileID: 482440975}
+  - component: {fileID: 482440976}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -348,9 +349,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 482440975}
-        m_TargetAssemblyTypeName: NextButton, Assembly-CSharp
-        m_MethodName: OnClick
+      - m_Target: {fileID: 482440976}
+        m_TargetAssemblyTypeName: Exit, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -411,6 +412,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inkManager: {fileID: 0}
+--- !u!114 &482440976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482440970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5f96d1c1b26354a814de6aeb6bf1e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &501788075
 GameObject:
   m_ObjectHideFlags: 0
