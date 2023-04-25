@@ -32,11 +32,13 @@ public class InkManager : MonoBehaviour
     {
         _story = new Story(_inkJsonAsset.text);
 
+        //Was me trying to set it up so characters would appear in a certain spot whenever they talk
+
         _story.BindExternalFunction("ShowCharacter", (string name, string position, string mood)
             => Debug.Log($"Show character called. {name}, {position}, {mood}"));
-
+        
         _story.BindExternalFunction("HideCharacter", (string name)
-            => Debug.Log($"Hide character called. {name}"));
+            => Debug.Log($"Hide character called. {name}")); 
 
         DisplayNextLine();
     }
