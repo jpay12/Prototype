@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
 
     public GameObject thePresses;
     Text pressesLeft;
-    public int buttonPresses;
+    private int buttonPresses = 15;
     
 
     // Update is called once per frame 

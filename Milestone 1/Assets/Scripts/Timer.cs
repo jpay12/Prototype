@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    public float timeStart = 60;
+    private float timeStart = 60;
     public Text textBox;
      
 
