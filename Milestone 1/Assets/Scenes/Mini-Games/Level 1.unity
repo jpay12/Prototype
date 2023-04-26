@@ -529,7 +529,6 @@ MonoBehaviour:
   xPos: 0
   theButton: {fileID: 904551772}
   thePresses: {fileID: 158982641}
-  buttonPresses: 15
 --- !u!114 &904551779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,7 +806,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e314c8d330b2f48be2e2dc22c043ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeStart: 20
   textBox: {fileID: 1076968459}
 --- !u!1001 &640070856004102248
 PrefabInstance:
